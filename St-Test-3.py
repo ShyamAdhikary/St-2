@@ -15,6 +15,7 @@ from datetime import datetime
 import streamlit as st
 #from PIL import Image
 #
+st.title ('Testing Streamlit Deployment')
 st.write ("Testing starts-1:", datetime.today().strftime("%x %H:%M:%S"))
 
 #print version no
@@ -22,8 +23,6 @@ st.write ('Python     : {}'.format(sys.version))
 st.write ('Numpy      : {}'.format(np.__version__))
 #st.write ('Matplotlib : {}'.format(matplotlib.__version__))
 #print ('OpenCV     : {}'.format(cv2.__version__))
-
-
 # 
 st.write("Streamlit testing - 1")
 
