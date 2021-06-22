@@ -15,7 +15,7 @@ from datetime import datetime
 import streamlit as st
 #from PIL import Image
 #
-st.title ('Testing Streamlit Deployment - Aru's Bday')
+st.title ('Testing Streamlit Deployment - Arus Bday')
 st.write ("Testing starts-1:", datetime.today().strftime("%x %H:%M:%S"))
 
 #print version no
