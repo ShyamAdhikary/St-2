@@ -1,9 +1,7 @@
 
 # 
 # Env - saenv5
-#
-
-#Import required modules
+# Import required modules
 #
 import os
 import sys
@@ -22,7 +20,6 @@ st.write ('Python     : {}'.format(sys.version))
 st.write ('Numpy      : {}'.format(np.__version__))
 #st.write ('Matplotlib : {}'.format(matplotlib.__version__))
 #st.write ('OpenCV     : {}'.format(cv2.__version__))
-
 
 # 
 st.title("Streamlit testing - 1")
