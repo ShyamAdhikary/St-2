@@ -44,6 +44,9 @@ st.write('Image width:', width, 'pixels')
 st.image(image, caption=image_file.name, width=width, channels = 'RGB')
 
 #
+salary = st.slider('What is your salary?', 1000, 100000, 5000)
+st.write("My salary INR", salary, 'per month')
+#
 st.write ('Example ends here:', datetime.today().strftime("%x %H:%M:%S"))
-
+st.title(" -- Streamlit testing Ends -- ")
 # 
