@@ -12,7 +12,7 @@ from datetime import datetime
 import streamlit as st
 from PIL import Image
 #
-#st.write ("Testing starts-1:", datetime.today().strftime("%x %H:%M:%S"))
+st.write ("Testing starts-1:", datetime.today().strftime("%x %H:%M:%S"))
 
 #print version no
 st.write ('Python     : {}'.format(sys.version))
