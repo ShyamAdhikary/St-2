@@ -24,9 +24,9 @@ from PIL import Image
 st.title(" -- Streamlit testing -- ")
 
 # Get the file from the user using file Uploader
-#image_file = st.file_uploader('Give input file:', type=['jpg'])
+image_file = st.file_uploader('Give input file:', type=['jpg'])
 
-image_file = st.camera_input("Take a picture")
+#image_file = st.camera_input("Take a picture")
 
 if not image_file:
    st.warning('Please input an image file name')
