@@ -37,7 +37,7 @@ st.sidebar.text('Matplotlib : '+matplotlib.__version__)
 st.sidebar.text('OpenCV     : '+cv2.__version__)
 
 # Read image using OpenCV
-st.sidebar.write(' ** Using OpenCV ** ')
+st.sidebar.write(' ** Using OpenCV n Clarifai API ** ')
 
 # Take a picture using camera
 
