@@ -2,6 +2,9 @@
 # Env - saenv5
 # Import required modules
 #
+# Try the below pip for Streamli share problem
+pip install -U MarkupSafe
+#
 import os
 import sys
 #import cv2
